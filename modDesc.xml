@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="67">
+    <author>loki_79</author>
+    <version>1.0.0.0</version>
+	<title>
+        <en>Sleep Anytime</en>
+        <de>Jederzeit Schlafen</de>
+        <fr>Dormir À Tout Moment</fr>
+    </title>
+    <description>
+<en><![CDATA[This mod removes the restrictions for sleeping, so you can sleep whenever you like.  If you have ever worked all through the night and needed to rest in the day, or sometimes want to have a quick nap after lunch, then this is the mod for you!  It can also be used as a way to fast forward time on a multiplayer server if the admin is not available.
+
+Features:
+- Sleep at any time of the day or night
+- Sleep for as long as you like (up to 24 hours)
+- Set your alarm to wake up on the hour
+]]>
+</en>
+<de><![CDATA[Diese mod entfernt die Einschränkungen für den Schlaf, so können Sie schlafen, wann immer Sie wollen.  Wenn Sie jemals gearbeitet haben, die ganze Nacht und brauchte zur Ruhe in den Tag, oder manchmal wollen ein schnelles Nickerchen nach dem Mittagessen, dann ist dies die mod für Sie!  Es kann auch als ein Weg, um schnell forwarad Zeit auf einem multiplayer-Server, wenn der admin nicht verfügbar ist, verwendet werden.
+
+Merkmale:
+- Schlafen zu jeder Tages- und Nachtzeit
+- Schlafen Sie so lange, wie Sie möchten (bis zu 24 Stunden)
+- Stellen Sie Ihren Alarm so ein, dass Sie zur vollen Stunde aufwachen
+]]>
+</de>
+<fr><![CDATA[Ce mod supprime les restrictions en matière de sommeil, de sorte que vous pouvez dormir quand vous le souhaitez.  Si vous avez déjà travaillé toute la nuit et avez besoin de vous reposer dans la journée, ou si vous souhaitez parfois faire une petite sieste après le déjeuner, alors ce mod est fait pour vous!  Il peut également être utilisé comme un moyen de gagner du temps sur un serveur multijoueur si l'administrateur n'est pas disponible.
+
+Caractéristiques:
+- Dormir à toute heure du jour ou de la nuit
+- Dormez aussi longtemps que vous le souhaitez (jusqu'à 24 heures)
+- Réglez votre réveil pour vous réveiller à l'heure
+]]>
+</fr>
+    </description>
+
+	<multiplayer supported="true" />
+	<iconFilename>modIcon.dds</iconFilename>
+	<extraSourceFiles>
+		<sourceFile filename="SleepAnytime.lua" />
+	</extraSourceFiles>
+	
+	<l10n>
+		<text name="message_TIME_NOW">
+			<en>The time is</en>
+			<de>Die Uhrzeit ist</de>
+			<fr>L'heure est</fr>
+		</text>
+		<text name="message_SLEEP_UNTIL">
+			<en>Wake up at:</en>
+			<de>Aufwachen um:</de>
+			<fr>Réveillez-vous à:</fr>
+		</text>
+	</l10n>
+	
+</modDesc>
